@@ -15,3 +15,8 @@ code {
 h1, h2{
   text-align: center;
 }
+
+.links{
+  display: flex;
+  justify-content: space-evenly;
+}

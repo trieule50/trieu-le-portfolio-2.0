@@ -16,7 +16,52 @@ h1, h2{
   text-align: center;
 }
 
+h1, h2{
+  font-family: 'Arvo', serif;
+  font-weight: bolder;
+}
+
 .links{
   display: flex;
   justify-content: space-evenly;
+}
+
+.profile{
+  height: 15rem;
+  border-radius: 100px;
+}
+
+.profile-container{
+text-align: center;
+}
+
+.css-button {
+	font-family: Verdana;
+	color: #ffffff;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px #3866a3 solid;
+	background: linear-gradient(180deg, #4153af 5%, #4153af 100%);
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+  text-decoration: none;
+}
+.css-button:hover{
+  color: #ffffff;
+}
+.css-button:visited{
+  color: #ffffff;
+}
+.css-button-icon {
+	padding: 10px 7px;
+	border-right: 1px solid rgba(255, 255, 255, 0.16);
+	box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+}
+.css-button-icon svg {
+	vertical-align: middle;
+	position: relative;
+}
+.css-button-text {
+	padding: 10px 18px;
 }

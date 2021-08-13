@@ -12,15 +12,25 @@ import AutoIcon from '../About/autocad.png';
 import BimIcon from '../About/bim.png';
 import NodeIcon from '../About/node-js.png';
 import BootIcon from '../About/bootstrapicon.png';
+import Profile from '../About/profile.jpeg';
 
 const About = () => {
     return(
         <div>
-            <h1>About</h1>
-            <p>I am a software engineer with a background in engineering. As a civil engineer, I enjoy solving problems in the most unorthodox way and creating projects that the general public uses everyday. During my time in project management, I became very passionate about technology more specifically, artificial intelligence in construction.  And on May 2021, I made a decision to study software engineering in hope to make a bigger impact on society.</p>
+            <h1 style={{padding: "1rem"}}>About</h1>
+            <div className="profile-container">
+                <img src={Profile} alt="profile picture" className="profile"/>
+            </div>
+            <div className="about-container">
+                <p style={{
+                    padding: "1.5rem",
+                    fontFamily: "Roboto",
+                    fontSize: "1rem"
+                }}>I am a software engineer with a background in engineering. As a civil engineer, I enjoy solving problems in the most unorthodox way and creating projects that the general public uses everyday. During my time in project management, I became very passionate about technology more specifically, artificial intelligence in construction.  And on May 2021, I made a decision to study software engineering in hope to make a bigger impact on society.</p>
+            </div>
             <div>
-                <h2>Skills</h2>
-                <Container style={{display:"flex", flexWrap:"wrap"}}>
+                <h2 style={{padding: "1rem"}}>Skills</h2>
+                <Container style={{display:"flex", flexWrap:"wrap", justifyContent:"center"}}>
                     <Card style={{ width: '10rem' }}>
                         <Card.Img variant="top" src={JSICON} style={{height: "6rem", width: "6rem"}}/>
                         <Card.Body>

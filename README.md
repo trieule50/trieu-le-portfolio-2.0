@@ -1,4 +1,42 @@
-# Getting Started with Create React App
+# Portfolio
+
+To view the deployed site: 
+
+## Preparation
+1. Fork and clone this repository
+2. Install dependencies with `<yarn install>`
+3. Run the app with `<yarn start>`
+
+Programs Used:
+- HTML
+- CSS
+- Material UI
+- React.js
+
+## About Me
+Hi! I'm Trieu, a civil engineer turned software engineer. As a civil engineer, I enjoy solving problems in the most unorthodox way and creating projects that the general public uses everyday. During my time in project management, I became very passionate about technology more specifically, artificial intelligence in construction. And on May 2021, I made a decision to study software engineering from a coding bootcamp - General Assembly - in hope to make a bigger impact on society.
+
+I enjoy working with React and JavaScript! 
+
+### How to reach me! 
+- Email: trieule50@gmail.com
+- [Linkedin](https://www.linkedin.com/in/trieule1/)
+
+## Deployed Projects
+- [Speech Audit](https://speechaudit.netlify.app/): Has there ever been a situation where you were unsure how a sentence or paragraph is perceived by others? With the help of this app, Speech Audit, and IBM's Speech to Text and Tone Analyzer API, users are able to see what emotion others may perceive in your sentence!
+- [devOgraphy](https://devography.netlify.app/): A working, an interactive, full-stack application that receives data from a custom API that my team designed. The app allows users to learn more about programming languages, their icons, their authors, and their creation date.
+- [Cook Assistant](https://cook-assistant.netlify.app/): Aworking, interactive, React application that recieved data from Edamam, the third-party API. The app allows users to find a recipe that fits their dietary needs and search for any key ingredient that the user wants in the recipe.
+- [Frantic Engineer](https://trieule50.github.io/frantic-engineer-project1/): Inspired by Snake and my previous career, Frantic Engineer is about an engineer who is getting ready to bid on a project. However, in order to submit the bid on time, all the proposal sheets will need to be collected.
+
+
+
+
+
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,4 +106,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# trieu-le-portfolio-2.0
+# trieu-le-portfolio-2.0 -->

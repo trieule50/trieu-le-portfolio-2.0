@@ -17,7 +17,7 @@ const Home = () => {
                 marginTop:'1.5rem'
                 }}>
                     <p style={{fontFamily:'Lancelot',fontSize:'3rem', fontWeight:'bolder'}}>From Builder to Coder</p>
-                    <p style={{maxWidth:'30rem', fontSize:'1.15rem'}}>Energetic engineer seeking for a position, where I can use my skills to learn new things and grow as a software developer.</p>
+                    <p style={{maxWidth:'30rem', fontSize:'1.15rem'}}>I'm an energetic engineer seeking a position, where I can apply and grow my skills while growing as a software developer.</p>
                     <a class="css-button" href="mailto: trieule50@gmail.com" target="_blank" style={{marginLeft:'6rem',
                     marginTop:'1rem'
                     }}>

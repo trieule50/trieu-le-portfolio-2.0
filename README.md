@@ -1,6 +1,6 @@
 # Portfolio
 
-To view the deployed site: 
+To view the deployed site: https://trieule.netlify.app/
 
 ## Preparation
 1. Fork and clone this repository

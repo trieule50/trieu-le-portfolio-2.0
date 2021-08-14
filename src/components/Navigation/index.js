@@ -28,7 +28,8 @@ import AttachFileIcon from '@material-ui/icons/AttachFile';
 import Home from '../Home';
 import About from '../About';
 import Projects from '../Projects';
-import icon from '../Navigation/apple-touch-icon.png'
+import icon from '../Navigation/apple-touch-icon.png';
+import Resume from '../Navigation/Trieu Le - Resume - 2021.pdf'
 
 const drawerWidth = 240;
 
@@ -173,7 +174,7 @@ export default function MiniDrawer() {
                 </ListItemIcon>
                 <ListItemText primary="Projects" />
             </ListItem>
-            <ListItem button component="a" href="https://github.com/trieule50" target="_blank">
+            <ListItem button component="a" href={Resume} target="_blank">
                 <ListItemIcon>
                     <AttachFileIcon />
                 </ListItemIcon>

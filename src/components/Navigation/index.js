@@ -29,7 +29,7 @@ import Home from '../Home';
 import About from '../About';
 import Projects from '../Projects';
 import icon from '../Navigation/apple-touch-icon.png';
-import Resume from '../Navigation/Trieu Le - Resume - 2021.pdf'
+import Resume from '../Navigation/Trieu Le - Resume - 9.21.pdf'
 
 const drawerWidth = 240;
 

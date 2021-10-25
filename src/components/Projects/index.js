@@ -14,8 +14,8 @@ const Projects = () => {
             fontWeight:'bolder',
             textAlign:'center'
             }}>Projects</p>
-            <Container>
-                <Card>
+            <Container style={{display:'flex', flexWrap:"wrap", justifyContent:"space-around"}}>
+                <Card style={{width:'30rem', margin: '.5rem'}}>
                     <Card.Img variant="top" src={SAPNG}
                     />
                     <Card.Body>
@@ -33,7 +33,7 @@ const Projects = () => {
                     </Card.Body>
                 </Card>
                 <br/>
-                <Card>
+                <Card style={{width:'30rem', margin: '.5rem'}}>
                     <Card.Img variant="top" src={DPNG} />
                     <Card.Body>
                         <Card.Text style={{fontSize: '1rem'}}>
@@ -50,7 +50,7 @@ const Projects = () => {
                     </Card.Body>
                 </Card>
                 <br/>
-                <Card>
+                <Card style={{width:'30rem', margin: '.5rem'}}>
                     <Card.Img variant="top" src={CAPNG} />
                     <Card.Body>
                         <Card.Text style={{fontSize: '1rem'}}>
@@ -67,7 +67,7 @@ const Projects = () => {
                     </Card.Body>
                 </Card>
                 <br/>
-                <Card>
+                <Card style={{width:'30rem', margin: '.5rem'}}>
                     <Card.Img variant="top" src={FEPNG} />
                     <Card.Body>
                         <Card.Text style={{fontSize: '1rem'}}>
